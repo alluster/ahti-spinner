@@ -1,13 +1,12 @@
-import React from 'react'
-import ReactBodymovin from 'react-bodymovin'
-import animation from './animation.json';
+import React from 'react';
+import ReactBodymovin from 'react-bodymovin';
 
-const Animation = () => {
+const Animation = props => {
     const bodymovinOptions = {
       loop: true,
       autoplay: true,
       prerender: true,
-      animationData: animation
+      animationData: props.animation
     }
    
     return (
