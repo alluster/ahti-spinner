@@ -17,7 +17,7 @@ const Animation = props => {
     }}>
 
         <div style={{
-            maxWidth:"100px",   
+            maxWidth: props.width,   
             margin: "0",
             position: "absolute",
             top: "50%",
