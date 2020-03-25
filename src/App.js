@@ -5,6 +5,7 @@ import Spinner2 from './Animations/spinner2.json';
 
 import UserLocation from './Animations/user-location.json';
 import PinOpen from './Animations/pin-open.json';
+import AppearinContent from './Animations/appearing-content.json';
 
 
 
@@ -23,7 +24,8 @@ const App = () => {
         <Animation animation={PinOpen} width="300px" />
         <p>Spinner 2</p>
         <Animation animation={Spinner2} width="100px"/>
-
+        <p> Appearing content</p>
+        <Animation animation={AppearinContent} width="300px"/>
     </div>
         
 
