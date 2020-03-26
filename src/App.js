@@ -6,6 +6,7 @@ import Spinner2 from './Animations/spinner2.json';
 import UserLocation from './Animations/user-location.json';
 import PinOpen from './Animations/pin-open.json';
 import AppearinContent from './Animations/appearing-content.json';
+import Anchour from './Animations/anchour.json';
 
 
 
@@ -26,6 +27,8 @@ const App = () => {
         <Animation animation={Spinner2} width="100px"/>
         <p> Appearing content</p>
         <Animation animation={AppearinContent} width="300px"/>
+        <p> Anchour</p>
+        <Animation animation={Anchour} width="300px"/>
     </div>
         
 
